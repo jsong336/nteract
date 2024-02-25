@@ -5,7 +5,7 @@
 # Distributed under the terms of the Modified BSD License.
 import os
 
-from notebook.utils import url_path_join as ujoin
+# from notebook.utils import url_path_join as ujoin
 from os.path import join as pjoin
 from jupyter_core.paths import ENV_JUPYTER_PATH, jupyter_config_path
 

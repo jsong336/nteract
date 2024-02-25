@@ -28,7 +28,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     include_package_data=True,
     zip_safe=False,
-    install_requires=['notebook'],
+    install_requires=['notebook<7.0.0'],
     data_files=data_files,
     entry_points={'console_scripts': ['jupyter-nteract = nteract_on_jupyter.nteractapp:main']},
 )
